@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "top-bar"></div>
+    <div class="game-box">
+        <h1 id=title>The Guessing Game 1-100 </h1>
+        <div id=controls>
+            <div class="tries">Tries: <span id="try">6</span></div>
+            <input type="number" name="user-input" id="user-input" placeholder="Enter Number" min="0" max="100"/>
+            <button type="submit" id="btn">Enter</button>
+            <button id="playAgain" class="hide">Play Again!!!</button>
+            <button id="ask-robot">Ask Robot</button>
+        </div>
+        <div class="robot-message"></div>
+    </div>
+</body>
+<script src="./scripts.js"></script>
+</html>
