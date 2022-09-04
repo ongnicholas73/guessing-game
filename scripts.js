@@ -28,7 +28,6 @@ const binarySearch = (array, target) => {
   }
   
   console.log("Target value not found in array");
-
 }
 
 // give enter btn click ability
